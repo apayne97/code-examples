@@ -1,0 +1,58 @@
+6:
+    Title: sys06
+    Path: ../complete-open-models/20210928-system06/
+    TrajFile: trajectory.dcd
+    System: system06
+    Length: 100
+    State: Open
+    Equilibration: False
+7:
+    Title: sys07
+    Path: ../complete-closed-models/20210928-model12-system07/
+    TrajFile: trajectory.dcd
+    System: system07
+    Length: 100
+    State: Closed
+    Equilibration: False
+8:
+    Title: sys06ch
+    Path: ../complete-open-models/20211004-system06-charmm-gui-scripts/
+    TrajFile: trajectory.dcd
+    System: system06
+    Length: 100
+    State: Open
+    Equilibration: CHARMM-GUI
+9:
+    Title: sys06ch_500ns
+    Path: ../complete-open-models/20211004-system06-charmm-gui-scripts/
+    TrajFile: trajectory-500ns.dcd
+    Length: 500
+    System: system06
+    State: Open
+    Equilibration: CHARMM-GUI
+10:
+    Title: sys06bb10ns
+    Path: ../complete-open-models/20211021-system06-10ns-bb-restraints/
+    TrajFile: trajectory.dcd
+    Length: 100
+    System: system06
+    State: Open
+    Equilibration: bb10ns
+11:
+    Title: sys07ch
+    Path: ../complete-closed-models/20211018-system07-charmm-gui-restrained/
+    TrajFile: trajectory.dcd
+    Length: 100
+    System: system07
+    State: Closed
+    Equilibration: CHARMM-GUI
+12:
+    Title: sys07ch_500ns
+    Path: ../complete-closed-models/20211018-system07-charmm-gui-restrained/
+    TrajFile: trajectory-500ns.dcd
+    Length: 500
+    System: system07
+    State: Closed
+    Equilibration: CHARMM-GUI
+
+
